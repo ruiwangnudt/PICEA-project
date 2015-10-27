@@ -2,7 +2,7 @@
 
 This is the Matlab implementation for PICEA-g.
 
-Created 2012,06,01 by Rui Wang
+Created 2012, 06, 01 by Rui Wang
 
 [The University of Sheffield](http://www.sheffield.ac.uk/)
 
@@ -15,7 +15,9 @@ You can follow the following steps to use this code:
 1. Add the folder subfunctions into the working path
 2. In the folder subfunctions there are two C functions
 	
-    ``` find_nd.c and l2matrix.c```
+    ```c
+    find_nd.c and l2matrix.c
+    ```
 
     You will need to first complie these functions using the following commonds:
 
@@ -37,7 +39,8 @@ You can follow the following steps to use this code:
     F_C = wfg(C, objvNo, k, l, testNo);
     ```
 
-Lastly, we provide two versions of PICEA-g, the main difference lies in the generation of goal vectors
+Lastly, we provide two versions of PICEA-g, the main difference lies in the generation of goal vectors.
+
 PICEA-g v1: objective vectors of candidate solutions ARE NOT normalized, and so goal vector bounds are 
             set according to current objective vectors.  
 			
